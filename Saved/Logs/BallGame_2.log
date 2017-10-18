@@ -1,0 +1,942 @@
+﻿Log file open, 09/28/17 18:57:31
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: BallGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-473026734) SRandInit(-473026734).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.248590
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: G:/Unreal Engine/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.28-16.57.32:231][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.28-16.57.32:231][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.28-16.57.32:257][  0]LogInit: Computer: TIM-PC
+[2017.09.28-16.57.32:257][  0]LogInit: User: TimPC
+[2017.09.28-16.57.32:257][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.28-16.57.32:257][  0]LogInit: High frequency timer resolution =3.508053 MHz
+[2017.09.28-16.57.32:258][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.28-16.57.32:258][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.28-16.57.32:258][  0]LogMemory: Process Physical Memory: 277.28 MB used, 277.28 MB peak
+[2017.09.28-16.57.32:258][  0]LogMemory: Process Virtual Memory: 282.26 MB used, 282.26 MB peak
+[2017.09.28-16.57.32:258][  0]LogMemory: Physical Memory: 5213.40 MB used,  2935.32 MB free, 8148.72 MB total
+[2017.09.28-16.57.32:258][  0]LogMemory: Virtual Memory: 661.52 MB used,  2935.32 MB free, 134217728.00 MB total
+[2017.09.28-16.57.32:552][  0]LogInit: Using OS detected language (de-DE).
+[2017.09.28-16.57.32:552][  0]LogInit: Using OS detected locale (de-DE).
+[2017.09.28-16.57.32:558][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.09.28-16.57.32:560][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.09.28-16.57.33:685][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.28-16.57.34:523][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.09.28-16.57.34:523][  0]LogD3D11RHI:       6014/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.28-16.57.34:525][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.28-16.57.34:526][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.28-16.57.34:526][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.28-16.57.34:534][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.28-16.57.34:534][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.28-16.57.34:534][  0]LogWindows: EnumDisplayDevices:
+[2017.09.28-16.57.34:534][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.09.28-16.57.34:534][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.09.28-16.57.34:534][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.28-16.57.34:535][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.28-16.57.34:535][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.28-16.57.34:535][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.09.28-16.57.34:535][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.09.28-16.57.34:535][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.09.28-16.57.34:535][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.28-16.57.35:254][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.28-16.57.35:337][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.28-16.57.35:390][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../Unreal Engine Projects/BallGame/Intermediate/Shaders/WorkingDirectory/3092/).
+[2017.09.28-16.57.35:390][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/treve_000/AppData/Local/Temp/UnrealShaderWorkingDir/08A7841D4EC44CA74B21E1AA907E3DC2/'.
+[2017.09.28-16.57.35:390][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.28-16.57.36:982][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.28-16.57.37:056][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.28-16.57.37:132][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.28-16.57.37:207][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.28-16.57.37:281][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.28-16.57.37:358][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.28-16.57.37:434][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.28-16.57.37:507][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.28-16.57.37:570][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.28-16.57.37:646][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.28-16.57.37:720][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.28-16.57.37:789][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.28-16.57.37:861][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.28-16.57.37:936][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.28-16.57.38:011][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.28-16.57.38:162][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.28-16.57.38:162][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.28-16.57.38:218][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.28-16.57.38:346][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.28-16.57.38:395][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.28-16.57.38:468][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.28-16.57.38:544][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.28-16.57.38:616][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.28-16.57.38:690][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.28-16.57.38:690][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.28-16.57.39:339][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.28-16.57.39:593][  0]LogDerivedDataCache: Loaded boot cache 0.25s 93MB C:/Users/treve_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.28-16.57.39:593][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/treve_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.28-16.57.39:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Engine Projects/BallGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.28-16.57.39:593][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.28-16.57.39:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Engine Projects/BallGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.28-16.57.39:593][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.28-16.57.39:626][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.28-16.57.39:639][  0]LogDerivedDataCache: Using Local data cache path C:/Users/treve_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.28-16.57.39:660][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.28-16.57.39:661][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.28-16.57.39:661][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.28-16.57.39:661][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.28-16.57.40:145][  0]LogAssetRegistry: FAssetRegistry took 0.0294 seconds to start up
+[2017.09.28-16.57.40:377][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.28-16.57.40:649][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.28-16.57.41:071][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.28-16.57.41:119][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.28-16.57.41:119][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.28-16.57.41:119][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.28-16.57.41:119][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.28-16.57.41:119][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.28-16.57.41:736][  0]LogNetVersion: BallGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1423358224)
+[2017.09.28-16.57.42:017][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.027923 seconds
+[2017.09.28-16.57.42:030][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.28-16.57.42:030][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.28-16.57.42:030][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.28-16.57.42:114][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.28-16.57.45:733][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.28-16.57.45:780][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.28-16.57.46:548][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.28-16.57.47:080][  0]SourceControl: Source control is disabled
+[2017.09.28-16.57.47:080][  0]SourceControl: Source control is disabled
+[2017.09.28-16.57.47:145][  0]SourceControl: Source control is disabled
+[2017.09.28-16.57.47:202][  0]SourceControl: Source control is disabled
+[2017.09.28-16.57.47:940][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.28-16.57.48:251][  0]LogOcInput: OculusInput pre-init called
+[2017.09.28-16.57.48:589][  0]LogEngine: Initializing Engine...
+[2017.09.28-16.57.48:592][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.28-16.57.49:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.28-16.57.49:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.28-16.57.49:195][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.28-16.57.49:215][  0]LogInit: XAudio2 using 'Lautsprecher (Logitech G930 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.28-16.57.49:234][  0]LogInit: FAudioDevice initialized.
+[2017.09.28-16.57.49:386][  0]LogDerivedDataCache: Saved boot cache 0.15s 93MB C:/Users/treve_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.28-16.57.49:411][  0]LogInit: Texture streaming: Enabled
+[2017.09.28-16.57.49:562][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.28-16.57.49:853][  0]LogInit: Transaction tracking system initialized
+[2017.09.28-16.57.50:256][  0]BlueprintLog: New page: Editor Load
+[2017.09.28-16.57.51:465][  0]LocalizationService: Localization service is disabled
+[2017.09.28-16.57.52:369][  0]LogConsoleResponse: Display: 
+[2017.09.28-16.57.52:625][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.28-16.57.52:625][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.28-16.57.52:625][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.28-16.57.53:312][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Engine Projects/BallGame/Content/' took 0.01s
+[2017.09.28-16.57.54:026][  0]SourceControl: Source control is disabled
+[2017.09.28-16.57.54:026][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Engine Projects/BallGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.28-16.57.54:027][  0]LightingResults: New page: Lighting Build
+[2017.09.28-16.57.54:081][  0]MapCheck: New page: Map Check
+[2017.09.28-16.57.54:081][  0]LightingResults: New page: Lighting Build
+[2017.09.28-16.57.54:277][  0]LogLinker: Warning: Can't find file '/Game/VectorFields/Particles/P_GeoPole'
+[2017.09.28-16.57.54:277][  0]LogLinker: Warning: Can't find file for asset '/Game/VectorFields/Particles/P_GeoPole' while loading ../../../../../Unreal Engine Projects/BallGame/Content/ThirdPersonBP/Blueprints/MainBallProjectile.uasset.
+[2017.09.28-16.57.54:277][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/MainBallProjectile : Can't find file for asset. /Game/VectorFields/Particles/P_GeoPole
+[2017.09.28-16.57.54:278][  0]LogLinker: Warning: Can't find file '/Game/VectorFields/Particles/P_GeoPole'
+[2017.09.28-16.57.54:278][  0]LogLinker: Warning: Can't find file for asset '/Game/VectorFields/Particles/P_GeoPole' while loading ../../../../../Unreal Engine Projects/BallGame/Content/ThirdPersonBP/Blueprints/MainBallProjectile.uasset.
+[2017.09.28-16.57.54:278][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/MainBallProjectile : Can't find file for asset. /Game/VectorFields/Particles/P_GeoPole
+[2017.09.28-16.57.54:280][  0]LogLinker: Warning: Can't find file '/Game/VectorFields/Particles/P_GeoPole'
+[2017.09.28-16.57.54:280][  0]LogLinker: Warning: Can't find file for asset '/Game/VectorFields/Particles/P_GeoPole' while loading ../../../../../Unreal Engine Projects/BallGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2017.09.28-16.57.54:280][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/VectorFields/Particles/P_GeoPole
+[2017.09.28-16.57.54:280][  0]LogLinker: Warning: Can't find file '/Game/VectorFields/Particles/P_GeoPole'
+[2017.09.28-16.57.54:280][  0]LogLinker: Warning: Can't find file for asset '/Game/VectorFields/Particles/P_GeoPole' while loading ../../../../../Unreal Engine Projects/BallGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2017.09.28-16.57.54:280][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/VectorFields/Particles/P_GeoPole
+[2017.09.28-16.57.54:283][  0]LogLinker: Warning: Can't find file '/Game/VectorFields/Particles/P_GeoPole'
+[2017.09.28-16.57.54:283][  0]LoadErrors: Failed to load /Game/VectorFields/Particles/P_GeoPole.P_GeoPole Referenced by p_BallRibbon_GEN_VARIABLE
+[2017.09.28-16.57.54:283][  0]LogLinker: Warning: Can't find file for asset '/Game/VectorFields/Particles/P_GeoPole' while loading ../../../../../Unreal Engine Projects/BallGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2017.09.28-16.57.54:283][  0]LoadErrors: Failed to load /Game/VectorFields/Particles/P_GeoPole.P_GeoPole Referenced by p_BallRibbon_GEN_VARIABLE
+[2017.09.28-16.57.54:283][  0]LoadErrors: Error: /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/VectorFields/Particles/P_GeoPole
+[2017.09.28-16.57.55:196][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.28-16.57.55:219][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.28-16.57.55:288][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.28-16.57.55:368][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.103ms to complete.
+[2017.09.28-16.57.55:368][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.342
+[2017.09.28-16.57.55:471][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.28-16.57.55:471][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.28-16.57.55:613][  0]LogCollectionManager: Loaded 0 collections in 0.001680 seconds
+[2017.09.28-16.57.55:721][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Engine Projects/BallGame/Saved/Collections/' took 0.01s
+[2017.09.28-16.57.55:721][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Engine Projects/BallGame/Content/Developers/TimPC/Collections/' took 0.01s
+[2017.09.28-16.57.55:721][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Engine Projects/BallGame/Content/Collections/' took 0.01s
+[2017.09.28-16.57.55:721][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.28-16.57.55:740][  0]LogContentBrowser: Native class hierarchy populated in 0.0187 seconds. Added 2386 classes and 500 folders.
+[2017.09.28-16.57.55:823][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.09.28-16.57.55:889][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.09.28-16.57.55:949][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.09.28-16.57.55:988][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.28-16.57.55:991][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.28-16.57.56:000][  0]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.28-16.57.56:199][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2017.09.28-16.57.56:522][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.09.28-16.57.56:522][  0]LogLoad: (Engine Initialization) Total time: 26.72 seconds
+[2017.09.28-16.57.56:522][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.28-16.57.56:522][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.28-16.57.56:554][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.28-16.57.56:718][  2]LogAssetRegistry: Asset discovery search completed in 16.5959 seconds
+[2017.09.28-16.57.56:721][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.28-16.57.56:721][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2017.09.28-16.57.57:571][ 73]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.28-16.58.00:656][395]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.28-16.58.19:648][494]LogEditorViewport: Clicking on Actor (context menu): MainBallProjectile_C (Projectile2)
+[2017.09.28-16.58.20:362][541]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.28-16.58.20:952][541]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 113 classes and 0 folders.
+[2017.09.28-16.58.22:138][541]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.28-16.58.22:198][542]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.28-16.58.27:203][975]BlueprintLog: New page: Compile MainBallProjectile
+[2017.09.28-16.58.28:086][975]BlueprintLog: New page: Compile MainBallProjectile
+[2017.09.28-16.58.29:424][  9]LogSavePackage: Save=37.33ms
+[2017.09.28-16.58.29:424][  9]LogSavePackage: Moving '../../../../../Unreal Engine Projects/BallGame/Saved/MainBallProjectile1441BB954E4DD8874E82E19BED51C8EC.tmp' to '../../../../../Unreal Engine Projects/BallGame/Content/ThirdPersonBP/Blueprints/MainBallProjectile.uasset'
+[2017.09.28-16.58.29:426][  9]LogSavePackage: Display: Finished SavePackage ../../../../../Unreal Engine Projects/BallGame/Content/ThirdPersonBP/Blueprints/MainBallProjectile.uasset
+[2017.09.28-16.59.32:168][699]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Unreal Engine Projekt Datein/BaseballArena/FBX/Arena.fbx)
+[2017.09.28-16.59.32:195][699]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-16.59.32:195][699]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.09.28-16.59.32:195][699]LogFbx: ItemName: Geometry, ItemCount : 3
+[2017.09.28-16.59.32:195][699]LogFbx: ItemName: Model, ItemCount : 5
+[2017.09.28-16.59.32:208][699]LogFbx: Loading FBX Scene from ../../../../../Unreal Engine Projekt Datein/BaseballArena/FBX/Arena.fbx
+[2017.09.28-16.59.32:224][699]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-16.59.41:233][699]LogFbx: Loading FBX Scene from ../../../../../Unreal Engine Projekt Datein/BaseballArena/FBX/Arena.fbx
+[2017.09.28-16.59.41:246][699]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-16.59.41:252][699]LogFbx: Warning: Triangulating static mesh Roof
+[2017.09.28-16.59.41:452][699]LogStaticMesh: Building static mesh Arena_Roof...
+[2017.09.28-16.59.41:459][699]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/Arena_Roof.Arena_Roof
+[2017.09.28-16.59.41:469][699]LogFbx: Warning: Triangulating static mesh Ground
+[2017.09.28-16.59.41:473][699]LogStaticMesh: Building static mesh Arena_Ground...
+[2017.09.28-16.59.41:473][699]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Meshes/Arena_Ground.Arena_Ground
+[2017.09.28-16.59.41:474][699]LogFbx: Warning: Triangulating static mesh Walls
+[2017.09.28-16.59.41:504][699]LogStaticMesh: Building static mesh Arena_Walls...
+[2017.09.28-16.59.41:505][699]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Meshes/Arena_Walls.Arena_Walls
+[2017.09.28-16.59.41:506][699]LogStaticMesh: Warning: Arena_Walls has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.09.28-16.59.41:519][699]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.28-16.59.41:519][699]FBXImport: Warning: Arena_Walls has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.09.28-16.59.50:569][352]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.28-16.59.50:612][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-16.59.50:612][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-16.59.50:613][352]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 28, 2017, 8:59:50 PM)
+[2017.09.28-16.59.50:613][352]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.28-16.59.50:652][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039444s)
+[2017.09.28-16.59.50:654][352]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.28-16.59.50:655][352]LogPlayLevel: PIE: World Init took: (0.002326s)
+[2017.09.28-16.59.50:655][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.042196s)
+[2017.09.28-16.59.50:722][352]LogInit: XAudio2 using 'Lautsprecher (Logitech G930 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.28-16.59.50:736][352]LogInit: FAudioDevice initialized.
+[2017.09.28-16.59.50:887][352]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.09.28-16.59.50:892][352]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.28-18.59.50
+[2017.09.28-16.59.50:893][352]LogWorld: Bringing up level for play took: 0.003747
+[2017.09.28-16.59.50:947][352]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.09.28-16.59.50:954][352]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.024
+[2017.09.28-16.59.50:955][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-16.59.50:999][352]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.09.28-16.59.52:578][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-16.59.52:650][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-16.59.56:551][726]LogActorFactory: Actor Factory created Arena_Walls
+[2017.09.28-16.59.58:698][860]LogActorFactory: Actor Factory created Arena_Walls
+[2017.09.28-17.00.06:759][415]Cmd: DELETE
+[2017.09.28-17.00.06:759][415]Cmd: ACTOR DELETE
+[2017.09.28-17.00.06:765][415]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.28-17.00.06:825][415]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2017.09.28-17.00.11:819][798]LogActorFactory: Actor Factory created Arena_Walls
+[2017.09.28-17.00.12:431][854]LogActorFactory: Actor Factory created Arena_Walls
+[2017.09.28-17.00.13:794][954]Cmd: DELETE
+[2017.09.28-17.00.13:794][954]Cmd: ACTOR DELETE
+[2017.09.28-17.00.13:794][954]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.28-17.00.13:845][954]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2017.09.28-17.00.15:091][ 48]LogActorFactory: Actor Factory created Arena_Roof
+[2017.09.28-17.00.16:064][123]LogActorFactory: Actor Factory created Arena_Roof
+[2017.09.28-17.00.32:093][272]Cmd: DELETE
+[2017.09.28-17.00.32:093][272]Cmd: ACTOR DELETE
+[2017.09.28-17.00.32:094][272]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.28-17.00.32:156][272]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2017.09.28-17.00.45:163][430]LogActorFactory: Actor Factory created Arena_Walls
+[2017.09.28-17.00.45:451][449]LogActorFactory: Actor Factory created Arena_Walls
+[2017.09.28-17.00.51:714][852]LogActorFactory: Actor Factory created Arena_Ground
+[2017.09.28-17.00.51:856][858]LogActorFactory: Actor Factory created Arena_Ground
+[2017.09.28-17.00.57:385][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-17.01.25:511][355]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.28-17.01.25:532][355]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.01.25:532][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-17.01.25:532][355]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 28, 2017, 9:01:25 PM)
+[2017.09.28-17.01.25:532][355]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.28-17.01.25:572][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039221s)
+[2017.09.28-17.01.25:573][355]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.28-17.01.25:574][355]LogPlayLevel: PIE: World Init took: (0.001835s)
+[2017.09.28-17.01.25:574][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.041509s)
+[2017.09.28-17.01.25:638][355]LogInit: XAudio2 using 'Lautsprecher (Logitech G930 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.28-17.01.25:652][355]LogInit: FAudioDevice initialized.
+[2017.09.28-17.01.25:742][355]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.09.28-17.01.25:748][355]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.28-19.01.25
+[2017.09.28-17.01.25:748][355]LogWorld: Bringing up level for play took: 0.004705
+[2017.09.28-17.01.25:757][355]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.78
+[2017.09.28-17.01.25:758][355]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.01.27:468][481]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.01.27:557][481]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.01.31:221][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Arena_Ground)
+[2017.09.28-17.01.34:696][932]LogActorFactory: Actor Factory created Arena_Roof
+[2017.09.28-17.01.35:076][957]LogActorFactory: Actor Factory created Arena_Roof
+[2017.09.28-17.01.48:238][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Arena_Ground)
+[2017.09.28-17.01.58:201][639]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.28-17.01.58:221][639]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.01.58:221][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-17.01.58:221][639]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 28, 2017, 9:01:58 PM)
+[2017.09.28-17.01.58:221][639]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.28-17.01.58:261][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039542s)
+[2017.09.28-17.01.58:263][639]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.28-17.01.58:263][639]LogPlayLevel: PIE: World Init took: (0.001923s)
+[2017.09.28-17.01.58:263][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.042032s)
+[2017.09.28-17.01.58:323][639]LogInit: XAudio2 using 'Lautsprecher (Logitech G930 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.28-17.01.58:338][639]LogInit: FAudioDevice initialized.
+[2017.09.28-17.01.58:440][639]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.09.28-17.01.58:446][639]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.28-19.01.58
+[2017.09.28-17.01.58:446][639]LogWorld: Bringing up level for play took: 0.004550
+[2017.09.28-17.01.58:454][639]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.524
+[2017.09.28-17.01.58:455][639]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.02.01:977][892]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.02.02:045][892]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.02.31:724][701]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.28-17.02.31:749][701]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.02.31:750][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-17.02.31:750][701]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 28, 2017, 9:02:31 PM)
+[2017.09.28-17.02.31:750][701]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.28-17.02.31:790][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040282s)
+[2017.09.28-17.02.31:792][701]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.28-17.02.31:792][701]LogPlayLevel: PIE: World Init took: (0.001947s)
+[2017.09.28-17.02.31:793][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.042897s)
+[2017.09.28-17.02.31:853][701]LogInit: XAudio2 using 'Lautsprecher (Logitech G930 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.28-17.02.31:870][701]LogInit: FAudioDevice initialized.
+[2017.09.28-17.02.31:959][701]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.09.28-17.02.31:965][701]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.28-19.02.31
+[2017.09.28-17.02.31:966][701]LogWorld: Bringing up level for play took: 0.005210
+[2017.09.28-17.02.31:974][701]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.996
+[2017.09.28-17.02.31:974][701]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.02.33:403][815]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:404][815]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:416][816]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:429][817]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:443][818]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:459][819]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:473][820]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:490][821]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:504][822]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:521][823]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:538][824]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:557][825]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:574][826]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:592][827]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:608][828]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:621][829]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:632][830]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:644][831]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:656][832]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:668][833]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:680][834]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.33:692][835]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:002][110]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:003][110]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:013][111]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:025][112]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:036][113]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:046][114]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:057][115]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:069][116]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:079][117]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:090][118]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:102][119]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:112][120]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:123][121]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:135][122]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:146][123]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:161][124]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:175][125]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:189][126]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:203][127]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:217][128]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:231][129]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:247][130]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:263][131]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:275][132]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:288][133]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.37:303][134]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.02.38:665][251]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.02.38:753][251]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.02.40:868][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.28-17.02.55:064][448]LogActorFactory: Actor Factory created Plane
+[2017.09.28-17.02.56:516][504]LogActorFactory: Actor Factory created Plane
+[2017.09.28-17.02.59:323][735]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.09.28-17.03.05:062][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.09.28-17.03.31:455][123]Cmd: DELETE
+[2017.09.28-17.03.31:457][123]Cmd: ACTOR DELETE
+[2017.09.28-17.03.31:458][123]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.28-17.03.31:514][123]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2017.09.28-17.03.40:911][ 87]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.09.28-17.03.40:931][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.03.40:931][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.28-17.03.40:932][ 87]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 28, 2017, 9:03:40 PM)
+[2017.09.28-17.03.40:932][ 87]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.09.28-17.03.40:972][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040559s)
+[2017.09.28-17.03.40:974][ 87]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.28-17.03.40:975][ 87]LogPlayLevel: PIE: World Init took: (0.002126s)
+[2017.09.28-17.03.40:975][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.043164s)
+[2017.09.28-17.03.41:035][ 87]LogInit: XAudio2 using 'Lautsprecher (Logitech G930 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.28-17.03.41:050][ 87]LogInit: FAudioDevice initialized.
+[2017.09.28-17.03.41:151][ 87]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.09.28-17.03.41:157][ 87]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.09.28-19.03.41
+[2017.09.28-17.03.41:157][ 87]LogWorld: Bringing up level for play took: 0.004551
+[2017.09.28-17.03.41:167][ 87]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.189
+[2017.09.28-17.03.41:167][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.03.46:819][562]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:820][562]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:835][563]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:851][564]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:871][565]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:888][566]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:904][567]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:918][568]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:930][569]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:942][570]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:953][571]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:965][572]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:975][573]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.46:987][574]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:001][575]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:014][576]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:030][577]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:044][578]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:056][579]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:070][580]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:085][581]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:100][582]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:118][583]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:406][608]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:407][608]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:417][609]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:427][610]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:439][611]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:449][612]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:461][613]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:475][614]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:488][615]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:503][616]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:515][617]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:532][618]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:546][619]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:559][620]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:573][621]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:586][622]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:599][623]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:611][624]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:624][625]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:638][626]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:650][627]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:660][628]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:671][629]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:672][629]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:682][630]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:692][631]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:703][632]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:986][658]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:987][658]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.47:996][659]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:007][660]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:017][661]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:027][662]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:038][663]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:048][664]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:058][665]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:069][666]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:079][667]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:091][668]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:101][669]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:112][670]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:122][671]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:133][672]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:144][673]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:155][674]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:165][675]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:175][676]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:185][677]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:195][678]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:206][679]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:216][680]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:226][681]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:237][682]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:247][683]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:257][684]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:268][685]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:278][686]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:308][689]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:592][717]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:594][717]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:605][718]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:614][719]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:625][720]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:637][721]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:647][722]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:657][723]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:668][724]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:678][725]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:689][726]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:700][727]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:710][728]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:721][729]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:733][730]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:745][731]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:755][732]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:768][733]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:778][734]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:790][735]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:801][736]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:812][737]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:823][738]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:835][739]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:847][740]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:858][741]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:872][742]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:884][743]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.48:897][744]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:239][ 38]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:240][ 38]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:251][ 39]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:263][ 40]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:275][ 41]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:287][ 42]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:298][ 43]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:310][ 44]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:325][ 45]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:339][ 46]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:351][ 47]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:363][ 48]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:376][ 49]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:387][ 50]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:397][ 51]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:408][ 52]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:419][ 53]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:428][ 54]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:439][ 55]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:450][ 56]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:461][ 57]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:473][ 58]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:486][ 59]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:498][ 60]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:510][ 61]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:524][ 62]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.52:538][ 63]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:063][108]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:065][108]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:075][109]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:085][110]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:095][111]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:106][112]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:117][113]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:127][114]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:137][115]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:148][116]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:158][117]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:170][118]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:183][119]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:197][120]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:209][121]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:223][122]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:238][123]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:252][124]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:268][125]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:284][126]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:297][127]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:312][128]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:325][129]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:339][130]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:352][131]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.53:364][132]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2017.09.28-17.03.56:698][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.03.56:761][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.09.28-17.03.59:483][544]Cmd: QUIT_EDITOR
+[2017.09.28-17.04.00:265][544]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.28-17.04.00:266][544]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.28-17.04.00:292][544]LogExit: Preparing to exit.
+[2017.09.28-17.04.00:942][544]LogDirectoryWatcher: A directory notification for 'G:/Unreal Engine Projects/BallGame/Content/' was aborted.
+[2017.09.28-17.04.01:004][544]LogExit: Editor shut down
+[2017.09.28-17.04.01:013][544]LogExit: Transaction tracking system shut down
+[2017.09.28-17.04.01:238][544]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.28-17.04.01:238][544]LogDirectoryWatcher: A directory notification for '../../../../../Unreal Engine Projects/BallGame/Content/' was aborted.
+[2017.09.28-17.04.01:238][544]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.28-17.04.01:238][544]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.28-17.04.01:238][544]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.28-17.04.01:488][544]LogExit: Object subsystem successfully closed.
+[2017.09.28-17.04.01:528][544]LogD3D11RHI: Shutdown
+[2017.09.28-17.04.01:528][544]LogD3D11RHI: CleanupD3DDevice
+[2017.09.28-17.04.01:771][544]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.28-17.04.01:791][544]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2017.09.28-17.04.01:791][544]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.09.28-17.04.01:791][544]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.09.28-17.04.01:791][544]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.09.28-17.04.01:791][544]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.28-17.04.01:791][544]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.28-17.04.01:791][544]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.28-17.04.01:791][544]LogDirectoryWatcher: A directory notification for 'G:/Unreal Engine/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.28-17.04.01:793][544]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.28-17.04.01:793][544]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.28-17.04.01:793][544]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.28-17.04.01:794][544]LogDirectoryWatcher: A directory notification for 'G:/Unreal Engine Projects/BallGame/Content/Collections/' was aborted.
+[2017.09.28-17.04.01:794][544]LogDirectoryWatcher: A directory notification for 'G:/Unreal Engine Projects/BallGame/Content/Developers/TimPC/Collections/' was aborted.
+[2017.09.28-17.04.01:794][544]LogDirectoryWatcher: A directory notification for 'G:/Unreal Engine Projects/BallGame/Saved/Collections/' was aborted.
+[2017.09.28-17.04.01:794][544]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.28-17.04.01:795][544]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.28-17.04.01:796][544]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.28-17.04.01:797][544]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.28-17.04.02:018][544]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.28-17.04.02:018][544]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.28-17.04.02:018][544]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.28-17.04.02:018][544]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.28-17.04.02:018][544]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.28-17.04.02:018][544]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.28-17.04.02:018][544]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.28-17.04.02:018][544]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.28-17.04.02:019][544]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.28-17.04.02:019][544]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.28-17.04.02:019][544]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.28-17.04.02:019][544]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.28-17.04.02:019][544]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.28-17.04.02:019][544]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.28-17.04.02:019][544]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.28-17.04.02:019][544]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.28-17.04.02:019][544]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.28-17.04.02:020][544]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.28-17.04.02:020][544]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.28-17.04.02:020][544]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.28-17.04.02:020][544]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.28-17.04.02:020][544]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.28-17.04.02:020][544]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.28-17.04.02:020][544]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.28-17.04.02:064][544]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.28-17.04.02:064][544]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.28-17.04.02:064][544]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.28-17.04.02:064][544]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.28-17.04.02:064][544]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.28-17.04.02:064][544]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.28-17.04.02:064][544]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.28-17.04.02:064][544]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.28-17.04.02:064][544]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.28-17.04.02:064][544]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.28-17.04.02:078][544]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.28-17.04.02:079][544]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.28-17.04.02:325][544]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.28-17.04.02:325][544]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.28-17.04.02:325][544]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.28-17.04.02:326][544]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.28-17.04.02:327][544]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.28-17.04.02:329][544]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.28-17.04.02:430][544]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.28-17.04.02:531][544]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.28-17.04.02:531][544]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.28-17.04.02:531][544]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.28-17.04.02:531][544]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.28-17.04.02:531][544]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.28-17.04.02:531][544]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.28-17.04.02:532][544]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.28-17.04.02:532][544]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.28-17.04.02:532][544]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.28-17.04.02:532][544]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.28-17.04.02:532][544]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.28-17.04.02:533][544]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.28-17.04.02:534][544]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.28-17.04.02:534][544]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.28-17.04.02:537][544]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.28-17.04.02:538][544]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.28-17.04.02:540][544]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.28-17.04.02:610][544]LogDerivedDataCache: Shutdown
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.28-17.04.02:611][544]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.28-17.04.02:612][544]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.28-17.04.02:612][544]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.28-17.04.02:612][544]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.28-17.04.02:612][544]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA0ED2AD6-43E9-9E29-70FA-AEAE90F569C0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=03273c0f44ffc416104f4182a7ee3b9a%7Ce94d3a14146b4c37b900ee330d3547a2%7C8ea02af6-757f-4d7a-891e-6d992f204c0d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.28-17.04.02:615][544]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.28-17.04.02:617][544]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.28-17.04.02:617][544]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.28-17.04.02:617][544]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.28-17.04.02:617][544]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.28-17.04.02:617][544]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.28-17.04.02:617][544]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.28-17.04.02:617][544]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.28-17.04.02:619][544]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.28-17.04.02:619][544]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.28-17.04.02:619][544]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.28-17.04.02:619][544]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.28-17.04.02:620][544]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.28-17.04.02:620][544]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.28-17.04.02:620][544]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.28-17.04.02:620][544]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.28-17.04.02:620][544]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.28-17.04.02:620][544]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.28-17.04.02:620][544]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.28-17.04.02:625][544]LogExit: Exiting.
+[2017.09.28-17.04.02:646][544]Log file closed, 09/28/17 19:04:02
