@@ -1,15 +1,17 @@
-﻿Log file open, 10/20/17 16:35:07
+﻿Log file open, 10/20/17 16:55:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BallGame
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-2131036618) SRandInit(-2131036618).
+LogInit: Display: RandInit(461525415) SRandInit(461525415).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.188649
+LogStats: Stats thread started at 0.205320
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -107,720 +109,169 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Base directory: G:/Unreal Engine/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.20-14.35.08:287][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.20-14.35.08:287][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.20-14.35.08:298][  0]LogInit: Computer: ERIC-PC
-[2017.10.20-14.35.08:298][  0]LogInit: User: Eric
-[2017.10.20-14.35.08:298][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.20-14.35.08:298][  0]LogInit: High frequency timer resolution =3.416974 MHz
-[2017.10.20-14.35.08:298][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.10.20-14.35.08:298][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.20-14.35.08:298][  0]LogMemory: Process Physical Memory: 278.32 MB used, 278.32 MB peak
-[2017.10.20-14.35.08:298][  0]LogMemory: Process Virtual Memory: 274.52 MB used, 274.52 MB peak
-[2017.10.20-14.35.08:298][  0]LogMemory: Physical Memory: 5592.54 MB used,  2518.50 MB free, 8111.04 MB total
-[2017.10.20-14.35.08:298][  0]LogMemory: Virtual Memory: 655.30 MB used,  2518.50 MB free, 134217728.00 MB total
-[2017.10.20-14.35.08:525][  0]LogInit: Using OS detected language (de-DE).
-[2017.10.20-14.35.08:525][  0]LogInit: Using OS detected locale (de-DE).
-[2017.10.20-14.35.08:530][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
-[2017.10.20-14.35.08:531][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
-[2017.10.20-14.35.09:420][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.20-14.35.09:469][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
-[2017.10.20-14.35.09:469][  0]LogD3D11RHI:       2017/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.10.20-14.35.09:471][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.20-14.35.09:471][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.20-14.35.09:471][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.20-14.35.09:480][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.20-14.35.09:480][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.20-14.35.09:480][  0]LogWindows: EnumDisplayDevices:
-[2017.10.20-14.35.09:480][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
-[2017.10.20-14.35.09:481][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
-[2017.10.20-14.35.09:481][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
-[2017.10.20-14.35.09:481][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
-[2017.10.20-14.35.09:481][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.10.20-14.35.09:481][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
-[2017.10.20-14.35.09:481][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
-[2017.10.20-14.35.09:481][  0]LogD3D11RHI:      Driver Date: 8-21-2017
-[2017.10.20-14.35.09:481][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.20-14.35.09:509][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.20-14.35.09:521][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.10.20-14.35.09:571][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Intermediate/Shaders/WorkingDirectory/12448/).
-[2017.10.20-14.35.09:571][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Eric/AppData/Local/Temp/UnrealShaderWorkingDir/892BC3174B4B27E9F1E0D0A7924817E5/'.
-[2017.10.20-14.35.09:571][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.20-14.35.10:662][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.20-14.35.10:739][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.20-14.35.10:808][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.20-14.35.10:877][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.20-14.35.10:950][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.20-14.35.11:030][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.20-14.35.11:114][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.20-14.35.11:202][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.20-14.35.11:280][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.20-14.35.11:352][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.20-14.35.11:417][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.20-14.35.11:484][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.20-14.35.11:554][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.20-14.35.11:621][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.20-14.35.11:697][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.20-14.35.11:837][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.20-14.35.11:837][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.20-14.35.11:899][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.20-14.35.12:021][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.20-14.35.12:059][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.20-14.35.12:131][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.20-14.35.12:197][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.20-14.35.12:264][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.20-14.35.12:330][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.20-14.35.12:330][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.20-14.35.12:993][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.20-14.35.13:123][  0]LogDerivedDataCache: Loaded boot cache 0.13s 93MB C:/Users/Eric/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.20-14.35.13:123][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Eric/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.20-14.35.13:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.20-14.35.13:123][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.20-14.35.13:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.20-14.35.13:123][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.20-14.35.13:139][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.20-14.35.13:152][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Eric/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.20-14.35.13:164][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.20-14.35.13:165][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.20-14.35.13:166][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.20-14.35.13:166][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.20-14.35.13:504][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2017.10.20-14.35.13:670][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.20-14.35.13:884][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.20-14.35.14:318][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.20-14.35.14:384][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.20-14.35.14:384][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.20-14.35.14:384][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.20-14.35.14:384][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.20-14.35.14:384][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.20-14.35.14:861][  0]LogNetVersion: BallGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1423358224)
-[2017.10.20-14.35.15:169][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.048464 seconds
-[2017.10.20-14.35.15:180][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.20-14.35.15:180][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.10.20-14.35.15:180][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.20-14.35.15:272][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.20-14.35.19:750][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.20-14.35.19:821][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.20-14.35.21:054][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.20-14.35.21:753][  0]SourceControl: Source control is disabled
-[2017.10.20-14.35.21:753][  0]SourceControl: Source control is disabled
-[2017.10.20-14.35.21:830][  0]SourceControl: Source control is disabled
-[2017.10.20-14.35.21:913][  0]SourceControl: Source control is disabled
-[2017.10.20-14.35.22:941][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.20-14.35.23:434][  0]LogOcInput: OculusInput pre-init called
-[2017.10.20-14.35.23:839][  0]LogEngine: Initializing Engine...
-[2017.10.20-14.35.23:843][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.20-14.35.24:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.20-14.35.24:138][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.20-14.35.24:352][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.20-14.35.24:367][  0]LogInit: XAudio2 using 'Lautsprecher (Sound Blaster Z)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2017.10.20-14.35.24:381][  0]LogInit: FAudioDevice initialized.
-[2017.10.20-14.35.24:486][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/Eric/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.20-14.35.24:507][  0]LogInit: Texture streaming: Enabled
-[2017.10.20-14.35.24:667][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.20-14.35.25:003][  0]LogInit: Transaction tracking system initialized
-[2017.10.20-14.35.25:488][  0]BlueprintLog: New page: Editor Load
-[2017.10.20-14.35.26:840][  0]LocalizationService: Localization service is disabled
-[2017.10.20-14.35.27:904][  0]LogConsoleResponse: Display: 
-[2017.10.20-14.35.28:148][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.20-14.35.28:149][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.20-14.35.28:149][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.20-14.35.28:636][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Eric/Desktop/Projects/Git/BallGame/Content/' took 0.01s
-[2017.10.20-14.35.29:754][  0]SourceControl: Source control is disabled
-[2017.10.20-14.35.29:754][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.20-14.35.29:754][  0]LightingResults: New page: Lighting Build
-[2017.10.20-14.35.29:819][  0]MapCheck: New page: Map Check
-[2017.10.20-14.35.29:819][  0]LightingResults: New page: Lighting Build
-[2017.10.20-14.35.30:515][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.10.20-14.35.30:533][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.20-14.35.30:567][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.20-14.35.30:699][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 131.846ms to complete.
-[2017.10.20-14.35.30:699][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.945
-[2017.10.20-14.35.30:886][  0]LogCollectionManager: Loaded 0 collections in 0.001609 seconds
-[2017.10.20-14.35.30:999][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Eric/Desktop/Projects/Git/BallGame/Saved/Collections/' took 0.01s
-[2017.10.20-14.35.31:000][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Eric/Desktop/Projects/Git/BallGame/Content/Developers/Eric/Collections/' took 0.01s
-[2017.10.20-14.35.31:000][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Eric/Desktop/Projects/Git/BallGame/Content/Collections/' took 0.01s
-[2017.10.20-14.35.31:000][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.10.20-14.35.31:011][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2386 classes and 500 folders.
-[2017.10.20-14.35.31:104][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.10.20-14.35.31:184][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.10.20-14.35.31:242][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.10.20-14.35.31:264][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.20-14.35.31:266][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.20-14.35.31:271][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.20-14.35.31:383][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.10.20-14.35.31:584][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.10.20-14.35.31:584][  0]LogLoad: (Engine Initialization) Total time: 25.57 seconds
-[2017.10.20-14.35.31:584][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.20-14.35.31:584][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.20-14.35.31:584][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.20-14.35.31:595][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.20-14.35.31:613][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.10.20-14.35.31:637][  0]LogSlate: Took 0.000487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.20-14.35.31:670][  1]LogAssetRegistry: Asset discovery search completed in 18.1869 seconds
-[2017.10.20-14.35.31:672][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.10.20-14.35.31:672][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000111 seconds (updated 0 objects)
-[2017.10.20-14.35.32:618][ 92]LogSlate: Took 0.000431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.20-14.35.53:435][491]SourceControl: On branch master
-[2017.10.20-14.35.53:435][491]SourceControl: Your branch is up-to-date with 'origin/master'.
-[2017.10.20-14.35.53:435][491]SourceControl: Changes not staged for commit:
-[2017.10.20-14.35.53:435][491]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.10.20-14.35.53:435][491]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.10.20-14.35.53:435][491]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.10.20-14.35.53:435][491]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
-[2017.10.20-14.35.53:435][491]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.10.20-14.35.53:435][491]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
-[2017.10.20-14.35.53:435][491]SourceControl: 	modified:   Saved/Logs/BallGame.log
-[2017.10.20-14.35.53:435][491]SourceControl: Untracked files:
-[2017.10.20-14.35.53:435][491]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.10.20-14.35.53:435][491]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-B3BFE2F449551DE2A2F90C97FFE0D296/
-[2017.10.20-14.35.53:435][491]SourceControl: 	Saved/Logs/BallGame-backup-2017.10.20-16.35.07.log
-[2017.10.20-14.35.53:435][491]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.10.20-14.35.58:860][119]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.10.20-14.35.58:971][119]EditorErrors: Warning: No assets to check in!
-[2017.10.20-14.36.02:390][517]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.20-14.36.02:766][517]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
-[2017.10.20-14.36.03:366][517]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.20-14.36.09:342][ 78]LogSlate: Took 0.001194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.10.20-14.36.20:135][139]BlueprintLog: New page: Compile Test
-[2017.10.20-14.36.20:796][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Test" FILE="../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Content/ThirdPersonBP/Blueprints/Test.uasset" SILENT=true
-[2017.10.20-14.36.20:821][176]LogSavePackage: Save=13.36ms
-[2017.10.20-14.36.20:822][176]LogSavePackage: Moving '../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Saved/Test49450D1D493AC3FF0663F9BBC266B803.tmp' to '../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Content/ThirdPersonBP/Blueprints/Test.uasset'
-[2017.10.20-14.36.20:828][176]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Content/ThirdPersonBP/Blueprints/Test.uasset
-[2017.10.20-14.36.23:762][491]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.10.20-14.36.31:210][491]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.10.20-14.36.31:264][491]SourceControl: [master 3a2d536] Test updated
-[2017.10.20-14.36.31:264][491]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
-[2017.10.20-14.36.31:264][491]SourceControl:  rewrite Content/ThirdPersonBP/Blueprints/Test.uasset (83%)
-[2017.10.20-14.36.31:270][491]SourceControl: Commited [master 3a2d536] Test updated.
-[2017.10.20-14.37.13:356][366]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.20-14.37.13:418][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.10.20-14.37.13:419][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.20-14.37.13:424][366]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 20, 2017, 6:37:13 PM)
-[2017.10.20-14.37.13:425][366]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.10.20-14.37.13:447][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022298s)
-[2017.10.20-14.37.13:448][366]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.10.20-14.37.13:449][366]LogPlayLevel: PIE: World Init took: (0.001279s)
-[2017.10.20-14.37.13:449][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024719s)
-[2017.10.20-14.37.13:476][366]LogInit: XAudio2 using 'Lautsprecher (Sound Blaster Z)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2017.10.20-14.37.13:480][366]LogInit: FAudioDevice initialized.
-[2017.10.20-14.37.13:554][366]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.10.20-14.37.13:560][366]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.20-16.37.13
-[2017.10.20-14.37.13:562][366]LogWorld: Bringing up level for play took: 0.004992
-[2017.10.20-14.37.13:619][366]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2017.10.20-14.37.13:629][366]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.129
-[2017.10.20-14.37.13:630][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.10.20-14.37.13:663][366]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2017.10.20-14.37.13:769][370]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.37.18:078][744]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.19:984][908]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.21:560][ 38]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.23:587][213]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.24:741][316]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.25:510][383]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.28:958][675]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.31:785][912]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.33:180][ 28]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.35:288][199]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.35:814][245]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.37:332][373]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.39:309][541]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.41:184][689]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.43:565][885]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.45:645][ 62]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.48:378][283]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.50:219][429]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.53:514][699]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.54:101][747]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.37.59:354][182]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.02:319][430]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.08:769][981]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.14:986][517]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.18:348][790]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.18:359][791]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=274.02 Y=1168.29 Z=0.00 Location: X=-1892.82 Y=-2672.64 Z=239.59 Normal: X=-0.26 Y=-0.80 Z=0.55 PenetrationDepth:38.259 Actor:MainBallProjectile_C_16 Component:Sphere BoneName:None (0 other events since notify)
-[2017.10.20-14.38.18:776][824]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.20:531][965]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:533][965]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:545][966]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:557][967]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.20:558][967]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:571][968]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:583][969]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:598][970]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:611][971]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:622][972]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:632][973]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:645][974]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:659][975]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:673][976]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:684][977]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:696][978]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:708][979]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:721][980]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:735][981]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:746][982]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:757][983]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:766][984]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:778][985]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:790][986]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:800][987]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:809][988]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:819][989]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:832][990]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.20:843][991]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:293][ 31]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:295][ 31]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:307][ 32]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:316][ 33]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:326][ 34]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:337][ 35]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:350][ 36]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:363][ 37]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:374][ 38]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:385][ 39]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:398][ 40]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:412][ 41]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:421][ 42]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:430][ 43]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:440][ 44]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:453][ 45]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:471][ 46]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:481][ 47]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:492][ 48]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:501][ 49]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:514][ 50]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:526][ 51]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:541][ 52]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:550][ 53]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:563][ 54]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:574][ 55]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:589][ 56]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:886][ 82]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:887][ 82]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:901][ 83]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:911][ 84]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:922][ 85]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:930][ 86]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:941][ 87]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:954][ 88]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:967][ 89]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:979][ 90]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.21:993][ 91]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:002][ 92]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:012][ 93]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:022][ 94]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:035][ 95]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:046][ 96]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:057][ 97]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:071][ 98]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:085][ 99]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:097][100]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:110][101]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:122][102]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:132][103]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:141][104]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:149][105]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:163][106]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:174][107]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:328][121]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:329][121]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:341][122]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:352][123]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:366][124]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:378][125]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:390][126]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:404][127]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:415][128]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:425][129]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:433][130]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:447][131]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:459][132]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:471][133]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:484][134]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:496][135]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:505][136]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:514][137]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:525][138]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:538][139]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:551][140]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:564][141]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:575][142]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:587][143]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:598][144]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:607][145]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:615][146]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:628][147]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:852][167]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:853][167]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:866][168]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:881][169]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:893][170]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:903][171]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:913][172]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:924][173]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:939][174]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:953][175]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:963][176]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:973][177]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:981][178]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.22:992][179]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:005][180]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:016][181]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:026][182]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:037][183]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:052][184]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:062][185]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:076][186]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:087][187]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:100][188]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:110][189]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:120][190]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:129][191]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:139][192]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:577][231]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:578][231]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:586][232]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:596][233]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:607][234]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:618][235]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:631][236]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:643][237]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:655][238]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:669][239]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:679][240]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:688][241]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:697][242]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:707][243]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:720][244]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:734][245]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:748][246]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:763][247]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:774][248]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:784][249]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:793][250]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:803][251]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:816][252]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:827][253]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:839][254]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:853][255]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.23:867][256]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.26:510][480]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.27:665][576]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:297][629]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:299][629]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:312][630]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:326][631]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:339][632]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:349][633]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:359][634]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:369][635]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:382][636]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:394][637]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:408][638]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:421][639]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:432][640]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:441][641]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:449][642]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:461][643]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:477][644]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:492][645]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:506][646]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:518][647]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:530][648]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:541][649]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:554][650]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:569][651]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:581][652]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.28:592][653]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.29:189][701]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.29:970][767]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.29:971][767]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.29:984][768]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.29:997][769]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:011][770]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:023][771]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:035][772]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:051][773]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:062][774]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:073][775]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:087][776]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:097][777]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:107][778]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:115][779]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:127][780]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:140][781]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:154][782]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:169][783]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:181][784]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:194][785]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:206][786]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:219][787]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:233][788]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:244][789]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:257][790]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.30:267][791]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:268][870]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:270][870]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:286][871]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:300][872]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:316][873]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:328][874]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:343][875]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:353][876]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:365][877]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:377][878]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:391][879]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:403][880]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:416][881]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:428][882]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:440][883]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:456][884]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:471][885]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:486][886]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:497][887]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:508][888]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:517][889]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:530][890]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:542][891]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:555][892]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.31:571][893]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:329][954]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:330][954]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:338][955]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:348][956]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:358][957]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:372][958]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:388][959]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:400][960]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:411][961]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:424][962]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:436][963]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:446][964]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:456][965]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:468][966]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:484][967]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:501][968]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:512][969]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:522][970]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:532][971]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:546][972]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:560][973]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:573][974]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:587][975]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:598][976]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:608][977]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.32:617][978]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:490][ 49]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:491][ 49]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:505][ 50]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:516][ 51]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:526][ 52]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:537][ 53]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:550][ 54]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:566][ 55]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:579][ 56]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:594][ 57]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:610][ 58]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:625][ 59]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:635][ 60]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:647][ 61]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:658][ 62]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:673][ 63]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:689][ 64]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:706][ 65]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:722][ 66]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:737][ 67]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:748][ 68]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:758][ 69]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:766][ 70]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:779][ 71]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.33:790][ 72]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:316][116]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:317][116]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:329][117]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:341][118]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:354][119]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:367][120]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:382][121]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:397][122]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:412][123]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:422][124]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:432][125]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:446][126]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:461][127]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:475][128]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:490][129]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:503][130]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:517][131]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:530][132]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:543][133]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:555][134]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:566][135]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:577][136]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:588][137]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:601][138]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.34:615][139]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.35:186][187]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.37:458][375]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.38:052][426]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:053][426]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:062][427]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:072][428]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:085][429]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:096][430]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:109][431]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:121][432]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:134][433]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:144][434]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:157][435]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:171][436]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:182][437]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:192][438]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:201][439]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:215][440]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:227][441]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:239][442]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:253][443]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:264][444]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:273][445]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:282][446]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:295][447]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:307][448]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:321][449]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:335][450]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.38:346][451]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.40:035][597]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.43:574][899]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.45:797][ 87]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.47:640][241]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.48:537][314]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.53:242][712]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.38.57:189][ 40]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:190][ 40]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:202][ 41]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:214][ 42]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:229][ 43]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:243][ 44]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:257][ 45]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:267][ 46]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:277][ 47]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:288][ 48]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:299][ 49]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:309][ 50]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:321][ 51]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:335][ 52]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:347][ 53]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:363][ 54]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:374][ 55]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:388][ 56]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:398][ 57]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:408][ 58]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:417][ 59]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:431][ 60]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:442][ 61]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:453][ 62]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:462][ 63]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:472][ 64]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:485][ 65]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:735][ 85]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:737][ 85]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:747][ 86]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:756][ 87]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:765][ 88]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:778][ 89]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:792][ 90]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:806][ 91]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:821][ 92]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:835][ 93]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:846][ 94]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:857][ 95]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:869][ 96]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:881][ 97]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:892][ 98]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:902][ 99]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:917][100]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:933][101]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:945][102]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:959][103]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:974][104]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:985][105]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.57:997][106]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:007][107]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:021][108]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:036][109]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:405][139]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:407][139]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:420][140]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:430][141]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:440][142]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:449][143]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:460][144]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:471][145]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:485][146]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:497][147]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:507][148]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:515][149]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:526][150]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:539][151]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:553][152]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:563][153]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:573][154]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:582][155]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:596][156]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:609][157]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:620][158]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:634][159]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:645][160]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:655][161]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:668][162]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:683][163]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:699][164]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:949][184]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:951][184]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:963][185]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:974][186]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:987][187]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.58:999][188]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:011][189]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:022][190]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:030][191]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:039][192]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:052][193]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:067][194]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:081][195]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:092][196]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:104][197]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:114][198]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:123][199]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:132][200]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:143][201]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:153][202]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:165][203]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:173][204]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:184][205]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:199][206]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:212][207]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:225][208]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.38.59:239][209]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
-[2017.10.20-14.39.05:245][692]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.39.10:662][141]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
-[2017.10.20-14.39.11:677][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.10.20-14.39.11:727][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.10.20-14.39.14:245][447]LogSlate: Took 0.001363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.10.20-14.40.14:450][405]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2017.10.20-14.40.15:328][426]LogSavePackage: Save=210.98ms
-[2017.10.20-14.40.15:328][426]LogSavePackage: Moving '../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Saved/ThirdPersonCharacter5A448B5D451025EA1339C4A94E5BDDF3.tmp' to '../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2017.10.20-14.40.15:335][426]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2017.10.20-14.41.01:910][861]LogSavePackage: Save=77.16ms
-[2017.10.20-14.41.01:910][861]LogSavePackage: Moving '../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Saved/ThirdPersonExampleMap8E1EE9C5468174E6268175869371316D.tmp' to '../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2017.10.20-14.41.01:918][861]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Eric/Desktop/Projects/Git/BallGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2017.10.20-14.41.01:941][861]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.259
-[2017.10.20-14.41.19:730][918]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.10.20-14.41.38:446][918]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.10.20-14.41.38:555][918]SourceControl: [master fb93476] nicht wirklich viel
-[2017.10.20-14.41.38:555][918]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
-[2017.10.20-14.41.38:563][918]SourceControl: Commited [master fb93476] nicht wirklich viel.
+[2017.10.20-14.55.05:869][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.20-14.55.05:869][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.20-14.55.05:884][  0]LogInit: Computer: TIM-PC
+[2017.10.20-14.55.05:884][  0]LogInit: User: TimPC
+[2017.10.20-14.55.05:884][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.20-14.55.05:884][  0]LogInit: High frequency timer resolution =3.508052 MHz
+[2017.10.20-14.55.05:885][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.10.20-14.55.05:885][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.20-14.55.05:885][  0]LogMemory: Process Physical Memory: 275.75 MB used, 275.75 MB peak
+[2017.10.20-14.55.05:885][  0]LogMemory: Process Virtual Memory: 274.34 MB used, 274.34 MB peak
+[2017.10.20-14.55.05:885][  0]LogMemory: Physical Memory: 4304.78 MB used,  3843.95 MB free, 8148.72 MB total
+[2017.10.20-14.55.05:885][  0]LogMemory: Virtual Memory: 653.54 MB used,  3843.95 MB free, 134217728.00 MB total
+[2017.10.20-14.55.06:088][  0]LogInit: Using OS detected language (de-DE).
+[2017.10.20-14.55.06:088][  0]LogInit: Using OS detected locale (de-DE).
+[2017.10.20-14.55.06:092][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.10.20-14.55.06:092][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.10.20-14.55.07:047][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.20-14.55.07:781][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.10.20-14.55.07:781][  0]LogD3D11RHI:       6014/0/4074 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.20-14.55.07:783][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.20-14.55.07:783][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.20-14.55.07:783][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.20-14.55.07:790][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.20-14.55.07:790][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.20-14.55.07:790][  0]LogWindows: EnumDisplayDevices:
+[2017.10.20-14.55.07:790][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.10.20-14.55.07:790][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.10.20-14.55.07:791][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.10.20-14.55.07:791][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.10.20-14.55.07:791][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.20-14.55.07:791][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.10.20-14.55.07:791][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.10.20-14.55.07:791][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.10.20-14.55.07:791][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.20-14.55.08:558][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.20-14.55.08:635][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.20-14.55.08:687][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../Unreal Engine Projects/BallGame/Intermediate/Shaders/WorkingDirectory/11168/).
+[2017.10.20-14.55.08:687][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/treve_000/AppData/Local/Temp/UnrealShaderWorkingDir/3B126795495E7D716D429FA15FBCD1BD/'.
+[2017.10.20-14.55.08:687][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.20-14.55.10:213][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.20-14.55.10:284][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.20-14.55.10:352][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.20-14.55.10:419][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.20-14.55.10:489][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.20-14.55.10:556][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.20-14.55.10:624][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.20-14.55.10:693][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.20-14.55.10:748][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.20-14.55.10:816][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.20-14.55.10:884][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.20-14.55.10:950][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.20-14.55.11:017][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.20-14.55.11:083][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.20-14.55.11:151][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.20-14.55.11:285][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.20-14.55.11:285][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.20-14.55.11:333][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.20-14.55.11:452][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.20-14.55.11:494][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.20-14.55.11:561][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.20-14.55.11:627][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.20-14.55.11:697][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.20-14.55.11:766][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.20-14.55.11:766][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.20-14.55.12:368][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.20-14.55.12:643][  0]LogDerivedDataCache: Loaded boot cache 0.27s 93MB C:/Users/treve_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.20-14.55.12:643][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/treve_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.20-14.55.12:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Engine Projects/BallGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.20-14.55.12:643][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.20-14.55.12:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Engine Projects/BallGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.20-14.55.12:643][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.20-14.55.12:674][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.20-14.55.12:687][  0]LogDerivedDataCache: Using Local data cache path C:/Users/treve_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.20-14.55.12:708][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.20-14.55.12:709][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.20-14.55.12:709][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.20-14.55.12:709][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.20-14.55.13:177][  0]LogAssetRegistry: FAssetRegistry took 0.0318 seconds to start up
+[2017.10.20-14.55.13:398][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.20-14.55.13:702][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.20-14.55.14:101][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.20-14.55.14:149][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.20-14.55.14:149][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.20-14.55.14:149][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.20-14.55.14:149][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.20-14.55.14:149][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.20-14.55.14:774][  0]LogNetVersion: BallGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1423358224)
+[2017.10.20-14.55.15:050][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.028707 seconds
+[2017.10.20-14.55.15:063][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.20-14.55.15:063][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.20-14.55.15:063][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.20-14.55.15:147][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.20-14.55.18:793][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.20-14.55.18:837][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.20-14.55.19:586][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.20-14.55.20:066][  0]SourceControl: Source control is disabled
+[2017.10.20-14.55.20:894][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.20-14.55.21:178][  0]LogOcInput: OculusInput pre-init called
+[2017.10.20-14.55.21:483][  0]LogEngine: Initializing Engine...
+[2017.10.20-14.55.21:486][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.20-14.55.21:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.20-14.55.21:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.20-14.55.22:071][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.20-14.55.22:086][  0]LogInit: XAudio2 using 'Lautsprecher (Logitech G930 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.20-14.55.22:108][  0]LogInit: FAudioDevice initialized.
+[2017.10.20-14.55.22:244][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/treve_000/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.20-14.55.22:278][  0]LogInit: Texture streaming: Enabled
+[2017.10.20-14.55.22:417][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.20-14.55.22:683][  0]LogInit: Transaction tracking system initialized
+[2017.10.20-14.55.23:060][  0]BlueprintLog: New page: Editor Load
+[2017.10.20-14.55.24:131][  0]LocalizationService: Localization service is disabled
+[2017.10.20-14.55.24:954][  0]LogConsoleResponse: Display: 
+[2017.10.20-14.55.25:183][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.20-14.55.25:183][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.20-14.55.25:183][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.20-14.55.26:348][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Engine Projects/BallGame/Content/' took 0.01s
+[2017.10.20-14.55.26:404][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Engine Projects/BallGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.20-14.55.26:405][  0]LightingResults: New page: Lighting Build
+[2017.10.20-14.55.26:453][  0]MapCheck: New page: Map Check
+[2017.10.20-14.55.26:453][  0]LightingResults: New page: Lighting Build
+[2017.10.20-14.55.27:487][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.20-14.55.27:509][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.20-14.55.27:585][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.20-14.55.27:656][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.746ms to complete.
+[2017.10.20-14.55.27:656][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.252
+[2017.10.20-14.55.27:863][  0]LogCollectionManager: Loaded 0 collections in 0.001208 seconds
+[2017.10.20-14.55.27:968][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Engine Projects/BallGame/Saved/Collections/' took 0.01s
+[2017.10.20-14.55.27:968][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Engine Projects/BallGame/Content/Developers/TimPC/Collections/' took 0.01s
+[2017.10.20-14.55.27:968][  0]LogFileCache: Scanning file cache for directory 'G:/Unreal Engine Projects/BallGame/Content/Collections/' took 0.01s
+[2017.10.20-14.55.27:968][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.20-14.55.27:984][  0]LogContentBrowser: Native class hierarchy populated in 0.0164 seconds. Added 2386 classes and 500 folders.
+[2017.10.20-14.55.28:059][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.10.20-14.55.28:113][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.10.20-14.55.28:166][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.10.20-14.55.28:199][  0]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.20-14.55.28:203][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.20-14.55.28:211][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.20-14.55.28:396][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2017.10.20-14.55.28:765][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.10.20-14.55.28:765][  0]LogLoad: (Engine Initialization) Total time: 24.76 seconds
+[2017.10.20-14.55.28:765][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.20-14.55.28:766][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.20-14.55.28:794][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.20-14.55.28:828][  0]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-14.55.28:875][  1]LogAssetRegistry: Asset discovery search completed in 15.7210 seconds
+[2017.10.20-14.55.28:878][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.20-14.55.28:878][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2017.10.20-14.55.29:835][ 79]LogSlate: Took 0.000464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-15.01.47:683][190]SourceControl: On branch master
+[2017.10.20-15.01.47:683][190]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.10.20-15.01.47:683][190]SourceControl: Changes not staged for commit:
+[2017.10.20-15.01.47:683][190]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.10.20-15.01.47:683][190]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.20-15.01.47:683][190]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.10.20-15.01.47:683][190]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.10.20-15.01.47:683][190]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.20-15.01.47:683][190]SourceControl: 	modified:   Saved/Logs/BallGame.log
+[2017.10.20-15.01.47:683][190]SourceControl: Untracked files:
+[2017.10.20-15.01.47:683][190]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.10.20-15.01.47:683][190]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-3F745AB84D290171C6CF87BCB039D968/
+[2017.10.20-15.01.47:683][190]SourceControl: 	Saved/Logs/BallGame-backup-2017.10.20-16.55.05.log
+[2017.10.20-15.01.47:683][190]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
